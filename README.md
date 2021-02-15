@@ -12,3 +12,6 @@ Recodes an input text using. Version 4.0.0.0
  - dstFileName: mandatory destination file name of converted file
  - inputEncoding: optional input encoding, i.e. Windows-1250, if omitted using default
  - outputEncoding: optional output encoding, if ommited using UTF-8
+
+
+WARNING: this software is provided as-is: use it at your own risk!
