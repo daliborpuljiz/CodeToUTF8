@@ -5,8 +5,7 @@ A simple C# application that's using power of .NET to convert a text file from o
 
 Usage:
 
-CodeToUTF8 v1.0.0.0: srcFileName/k /dstFileName/k inputEncoding/o outputEncoding/o
-Recodes an input text to another coding page.
+**CodeToUTF8** srcFileName/k /dstFileName/k inputEncoding/o outputEncoding/o
 
  - srcFileName: mandatory source file name to convert
  - dstFileName: mandatory destination file name of converted file
