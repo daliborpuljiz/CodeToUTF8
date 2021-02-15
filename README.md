@@ -14,4 +14,4 @@ Recodes an input text using. Version 4.0.0.0
  - outputEncoding: optional output encoding, if ommited using UTF-8
 
 
-WARNING: this software is provided as-is: use it at your own risk!
+**WARNING:** this software is provided as-is: use it at your own risk!
