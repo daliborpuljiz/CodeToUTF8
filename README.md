@@ -14,3 +14,7 @@ Usage:
 
 
 **WARNING:** this software is provided as-is: use it at your own risk!
+
+
+**NOTE:**
+This program is best used with Directory Opus button. More info can be obtained at the following link: https://resource.dopus.com/t/recode-text-to-another-coding/37831
