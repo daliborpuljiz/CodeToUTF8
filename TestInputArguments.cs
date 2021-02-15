@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
 using System.Text;
 
 namespace CodeToUTF8
@@ -41,13 +42,14 @@ namespace CodeToUTF8
    if (_inputArgs[0] == "/?" || _inputArgs[0] == "help" )
    {
     _retError = "Usage:";
-    _retError += "\n\n" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Name + 
+    _retError += "\n\n" + Assembly.GetExecutingAssembly().GetName().Name +
+                 " v" + Assembly.GetExecutingAssembly().GetName().Version.ToString() +
                  ": srcFileName/k /dstFileName/k inputEncoding/o outputEncoding/o";
-    _retError += "\nRecodes an input text using. Version " + typeof(String).Assembly.GetName().Version + "\n";
+    _retError += "\nRecodes an input text to another coding page.\n";
     _retError += "\n - srcFileName: mandatory source file name to convert";
     _retError += "\n - dstFileName: mandatory destination file name of converted file";
-    _retError += "\n - inputEncoding: optional input encoding, i.e. Windows-1250, if omitted using default";
-    _retError += "\n - outputEncoding: optional output encoding, if ommited using UTF-8  ";
+    _retError += "\n - inputEncoding: optional input encoding, i.e. Windows-1250, if omitted uses default";
+    _retError += "\n - outputEncoding: optional output encoding, if ommited uses UTF-8  ";
     _retError += "\n";
     return false;
    };
